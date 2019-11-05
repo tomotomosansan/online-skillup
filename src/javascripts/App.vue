@@ -7,7 +7,7 @@
     <MyComponent :message="$data.message" />
     <form @submit="onSubmit">
       <input v-model="$data.text" type="text">
-      <button type="submit">送信</button>
+      <button type="submit">送信です</button>
     </form>
   </div>
 </template>
